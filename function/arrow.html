@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>arrow</title>
+</head>
+<body>
+	<!-- //single argument in arrow method we can't use brackets
+	//never use  function keyword -->
+	<script type="text/javascript">
+		add = (a,b) =>{
+			document.write(a+b)
+		}
+		add(10,20)
+
+
+		document.write("<br>")
+		//arrow function with one argument
+
+		getname = a =>{
+			document.write(a)
+		}
+		getname('ammu')
+       document.write("<br>")
+
+     // arrow functions with no arguments
+       //test =() =>{ or
+
+		test =() =>{
+			document.write("testingss")
+		}
+		// test()
+     
+     //setTime out function
+    setTimeout(function() {
+       document.write("enables after one second")
+    },1000);
+
+    //call back function in settime
+    setTimeout(test1,1000)
+    function test1() {
+     document.write("enables after one second")
+    }
+	</script>
+
+</body>
+</html>

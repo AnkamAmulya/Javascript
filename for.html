@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>for</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var trainees = [
+       
+        {
+          'name':'sai',
+			'college':'aec',
+			'pin_no':132,
+			'branch':'mech'},
+			
+        {
+          'name':'ammu',
+			'college':'aec',
+			'pin_no':132,
+			'branch':'ece'},
+			{
+				 'name':'keerthi',
+			'college':'aec',
+			'pin_no':438,
+			'branch':'eee'
+			}
+
+
+		]
+		console.log(trainees.length)
+		for (var i = 0;i < trainees.length;i++) {
+			document.write(i+1,trainees[i].college+" ",trainees[i].branch+" ",trainees[i].pin_no+" ")
+			document.write("</br>")
+		}
+	</script>
+
+</body>
+</html>
